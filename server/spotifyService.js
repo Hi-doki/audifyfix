@@ -2,7 +2,7 @@ import axios from 'axios';
 
 const clientId = '3b0d289e21b44137b448bb7f2207db16';
 const clientSecret = '329ae7dd501f4d77a01a80e5e97d780b';
-const redirectUri = 'http://localhost:3000/callback'; // Ensure this matches the Spotify Developer Dashboard
+const redirectUri = 'https://audify.nekos.ca/callback'; // Ensure this matches the Spotify Developer Dashboard
 const authUrl = 'https://accounts.spotify.com/authorize';
 const tokenUrl = 'https://accounts.spotify.com/api/token';
 const apiUrl = 'https://api.spotify.com/v1';
