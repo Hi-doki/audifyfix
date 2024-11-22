@@ -45,7 +45,7 @@
 
 <script>
 import { fetchTopTracks, fetchUserData } from "../server/spotifyService";
-import Featured from "../components/Featured";
+import Featured from "../components/featured.vue";
 import Playlistbox from "../components/playlistbox.vue";
 
 export default {
