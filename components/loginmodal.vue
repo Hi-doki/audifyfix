@@ -5,7 +5,7 @@
         <button @click="authorizeWithSpotify" class="login_button">
           <img
             class="login__logo"
-            src="../public/spotify_logo.svg"
+            src="../public/Spotify_Logo.svg"
             alt="Spotify
         Logo"
             height="50px"
