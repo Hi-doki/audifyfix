@@ -34,6 +34,7 @@
 
 <script>
 import Playlistbox from "~/components/playlistbox";
+import Featured from "~/components/featured";
 import { fetchUserData, fetchFeatured } from "~/server/spotifyService";
 
 export default {
