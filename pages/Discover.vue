@@ -33,8 +33,8 @@
 </template>
 
 <script>
-import Playlistbox from "../components/Playlistbox";
-import { fetchUserData, fetchFeatured } from "../server/spotifyService";
+import Playlistbox from "~/components/playlistbox";
+import { fetchUserData, fetchFeatured } from "~/server/spotifyService";
 
 export default {
   name: "Discover",
