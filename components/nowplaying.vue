@@ -118,7 +118,7 @@ export default {
   width: 100vw;
   bottom: 10px;
   left: 0px;
-  position: absolute;
+  position: fixed;
 }
 .details {
   display: flex;
