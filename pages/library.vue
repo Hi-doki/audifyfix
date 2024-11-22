@@ -27,7 +27,7 @@
 </template>
 
 <script>
-import Playlistbox from "../components/Playlistbox";
+import Playlistbox from "~/components/playlistbox.vue";
 import { fetchUserData, fetchPlaylists } from "../server/spotifyService";
 
 export default {
