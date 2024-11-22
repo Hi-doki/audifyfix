@@ -9,7 +9,7 @@
         <Content class="thingy" />
       </div>
       <div>
-        <nowplaying />
+        <nowplaying class="dynamicscale"/>
       </div>
     </div>
   </div>
@@ -36,5 +36,10 @@ import Sidebar from "./sidebar.vue";
 }
 .idk {
   height: calc(100vh - 60px);
+}
+@media (width <= 500px) {
+  .dynamicscale{
+    scale: 80%
+  }
 }
 </style>
