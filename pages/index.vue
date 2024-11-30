@@ -90,7 +90,7 @@ export default {
         try {
           this.userinfo = await fetchUserData();
           this.topTrack = await fetchTopTracks("1", "short_term");
-          this.topTracks = await fetchTopTracks("17", "short_term");
+          this.topTracks = await fetchTopTracks("19", "short_term");
         } catch (error) {
           console.error("Error fetching top tracks:", error);
         }

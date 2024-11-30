@@ -101,7 +101,7 @@ export default {
         if (this.isLoggedIn) {
           this.fetchCurrentlyPlaying();
         }
-      }, 2000); // Poll every 3 seconds
+      }, 10000); // Poll every 10 seconds
     },
   },
   watch: {
